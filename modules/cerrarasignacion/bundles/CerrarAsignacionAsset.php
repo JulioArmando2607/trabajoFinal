@@ -1,0 +1,25 @@
+<?php
+
+namespace app\modules\cerrarasignacion\bundles;
+
+use yii\web\AssetBundle;
+
+class CerrarAsignacionAsset extends AssetBundle {
+
+    public $sourcePath = '@app/modules/cerrarasignacion/assets';
+    public $css = [
+        'css/main.css'
+    ];
+    public $js = [
+        'js/index.js',
+        'js/crear.js',
+        'js/enviocorreocierre.js'
+    ];
+    public $depends = [
+        'app\bundles\TemplateAsset',
+    ];
+    public $publishOptions = [
+        'forceCopy' => true,
+    ];
+
+}

@@ -1,0 +1,1785 @@
+[02-Jun-2021 00:22:17 America/Lima] PHP Warning:  Uncaught yii\base\ErrorException: require_once(C:/xampp/htdocs/PegasoSistema/vendor/autoload.php): failed to open stream: No such file or directory in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php:18
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php(18): yii\base\ErrorHandler->handleError(2, 'require_once(C:...', '/home2/ginoharo...', 18, Array)
+#1 /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php(18): require_once()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/BaseYii.php(293): include('/home2/ginoharo...')
+#3 [internal function]: yii\BaseYii::autoload('app\\modules\\seg...')
+#4 [internal function]: spl_autoload_call('app\\modules\\seg...')
+#5 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Module.php(643): class_exists('app\\modules\\seg...')
+#6 /home2/ginoharold/public_html/PegasoSistema/ in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 18
+[02-Jun-2021 00:22:17 America/Lima] PHP Fatal error:  yii\BaseYii::main(): Failed opening required 'C:/xampp/htdocs/PegasoSistema/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 18
+[02-Jun-2021 00:24:05 America/Lima] PHP Warning:  Uncaught yii\base\ErrorException: require_once(C:/xampp/htdocs/PegasoSistema/vendor/autoload.php): failed to open stream: No such file or directory in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php:18
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php(18): yii\base\ErrorHandler->handleError(2, 'require_once(C:...', '/home2/ginoharo...', 18, Array)
+#1 /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php(18): require_once()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/BaseYii.php(293): include('/home2/ginoharo...')
+#3 [internal function]: yii\BaseYii::autoload('app\\modules\\seg...')
+#4 [internal function]: spl_autoload_call('app\\modules\\seg...')
+#5 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Module.php(643): class_exists('app\\modules\\seg...')
+#6 /home2/ginoharold/public_html/PegasoSistema/ in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 18
+[02-Jun-2021 00:24:05 America/Lima] PHP Fatal error:  yii\BaseYii::main(): Failed opening required 'C:/xampp/htdocs/PegasoSistema/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 18
+[02-Jun-2021 14:57:17 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '79',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=1915a4bc7cacb828c85373d57e8da580',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfinOmyphO4VLw0q1ziiwAAAKs',
+    'REDIRECT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '61380',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfinOmyphO4VLw0q1ziiwAAAKs',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622663836.756153106689453125,
+    'REQUEST_TIME' => 1622663836,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 14:57:23 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '79',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=3cd4593a369774a657068b6f44003126',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfio@xu8s0DTvY8KjWicgAAAF0',
+    'REDIRECT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '61398',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfio@xu8s0DTvY8KjWicgAAAF0',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622663843.2673890590667724609375,
+    'REQUEST_TIME' => 1622663843,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 14:57:47 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '79',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=3cd4593a369774a657068b6f44003126',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfiuumyphO4VLw0q1zkjwAAAMc',
+    'REDIRECT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '49290',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfiuumyphO4VLw0q1zkjwAAAMc',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622663867.018889904022216796875,
+    'REQUEST_TIME' => 1622663867,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 14:58:42 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '79',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=3cd4593a369774a657068b6f44003126',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfi8uxu8s0DTvY8KjWlhwAAAFM',
+    'REDIRECT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '49315',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfi8uxu8s0DTvY8KjWlhwAAAFM',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622663922.676848888397216796875,
+    'REQUEST_TIME' => 1622663922,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 15:10:05 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '69',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _hjTLDTest=1; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; PHPSESSID=e7fe7d99d13b9dbed277c13cca2a3bbf; _csrf=c55c4b9ddc13f66f92bf0367432a77436a471c62d60b1014d5044b6fb8a4ffcfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9FUq7ma7NSnoAaC1DqBhC5yPYw-a3RL%22%3B%7D; kt_aside_menu=200',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLflncmZVJp9NwtObAZqHgAAAIQ',
+    'REDIRECT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '60718',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLflncmZVJp9NwtObAZqHgAAAIQ',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622664605.480411052703857421875,
+    'REQUEST_TIME' => 1622664605,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 15:10:16 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/direcciones/controllers/DefaultController.php on line 82. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '69',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _hjTLDTest=1; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; PHPSESSID=e7fe7d99d13b9dbed277c13cca2a3bbf; _csrf=c55c4b9ddc13f66f92bf0367432a77436a471c62d60b1014d5044b6fb8a4ffcfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9FUq7ma7NSnoAaC1DqBhC5yPYw-a3RL%22%3B%7D; kt_aside_menu=200',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLflqMmZVJp9NwtObAZqwAAAAF8',
+    'REDIRECT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '63215',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/direcciones/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/direcciones/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLflqMmZVJp9NwtObAZqwAAAAF8',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622664616.8634860515594482421875,
+    'REQUEST_TIME' => 1622664616,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 15:13:37 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/via/controllers/DefaultController.php on line 63. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/via/controllers/DefaultController.php on line 63. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '17',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _hjTLDTest=1; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; PHPSESSID=e7fe7d99d13b9dbed277c13cca2a3bbf; _csrf=c55c4b9ddc13f66f92bf0367432a77436a471c62d60b1014d5044b6fb8a4ffcfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9FUq7ma7NSnoAaC1DqBhC5yPYw-a3RL%22%3B%7D; kt_aside_menu=200',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/via/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfmcUkSy558y01YxSvAmQAAAfw',
+    'REDIRECT_URL' => '/PegasoSistema/web/via/default/create',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '56779',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/via/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/via/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfmcUkSy558y01YxSvAmQAAAfw',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622664817.7719860076904296875,
+    'REQUEST_TIME' => 1622664817,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 15:13:49 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/via/controllers/DefaultController.php on line 63. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/via/controllers/DefaultController.php on line 63. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '17',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _hjTLDTest=1; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; PHPSESSID=e7fe7d99d13b9dbed277c13cca2a3bbf; _csrf=c55c4b9ddc13f66f92bf0367432a77436a471c62d60b1014d5044b6fb8a4ffcfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9FUq7ma7NSnoAaC1DqBhC5yPYw-a3RL%22%3B%7D; kt_aside_menu=200',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/via/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfmfcmZVJp9NwtObAZ2BwAAAFM',
+    'REDIRECT_URL' => '/PegasoSistema/web/via/default/create',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '49809',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/via/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/via/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfmfcmZVJp9NwtObAZ2BwAAAFM',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622664829.3303310871124267578125,
+    'REQUEST_TIME' => 1622664829,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 15:27:29 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/via/controllers/DefaultController.php on line 63. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/via/controllers/DefaultController.php on line 63. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '17',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _hjTLDTest=1; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; PHPSESSID=e7fe7d99d13b9dbed277c13cca2a3bbf; _csrf=c55c4b9ddc13f66f92bf0367432a77436a471c62d60b1014d5044b6fb8a4ffcfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9FUq7ma7NSnoAaC1DqBhC5yPYw-a3RL%22%3B%7D; kt_aside_menu=200',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via/default/create',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/via/default/create',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfpsHTdogwl9Qs3oUAbugAAAJk',
+    'REDIRECT_URL' => '/PegasoSistema/web/via/default/create',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '56095',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/via/default/create',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/via/default/create',
+    'SCRIPT_URL' => '/PegasoSistema/web/via/default/create',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfpsHTdogwl9Qs3oUAbugAAAJk',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622665648.9167330265045166015625,
+    'REQUEST_TIME' => 1622665648,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 15:37:35 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguridad/controllers/PerfilController.php on line 146. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguridad/controllers/PerfilController.php on line 146. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '140',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _hjTLDTest=1; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; PHPSESSID=e7fe7d99d13b9dbed277c13cca2a3bbf; _csrf=c55c4b9ddc13f66f92bf0367432a77436a471c62d60b1014d5044b6fb8a4ffcfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9FUq7ma7NSnoAaC1DqBhC5yPYw-a3RL%22%3B%7D; kt_aside_menu=0',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguridad',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguridad/perfil/update',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguridad/perfil/update',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfsDxAULOH5OwyhJNge6wAAAA4',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguridad/perfil/update',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '61919',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguridad/perfil/update',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguridad/perfil/update',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguridad/perfil/update',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfsDxAULOH5OwyhJNge6wAAAA4',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622666255.7706830501556396484375,
+    'REQUEST_TIME' => 1622666255,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 15:37:44 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguridad/controllers/PerfilController.php on line 146. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguridad/controllers/PerfilController.php on line 146. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '140',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _hjTLDTest=1; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; PHPSESSID=e7fe7d99d13b9dbed277c13cca2a3bbf; _csrf=c55c4b9ddc13f66f92bf0367432a77436a471c62d60b1014d5044b6fb8a4ffcfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9FUq7ma7NSnoAaC1DqBhC5yPYw-a3RL%22%3B%7D; kt_aside_menu=0',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguridad',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguridad/perfil/update',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguridad/perfil/update',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLfsGDtZz3gi0BbkjEHPIAAAAFo',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguridad/perfil/update',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '64257',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguridad/perfil/update',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguridad/perfil/update',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguridad/perfil/update',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLfsGDtZz3gi0BbkjEHPIAAAAFo',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622666264.319096088409423828125,
+    'REQUEST_TIME' => 1622666264,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 16:53:49 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _hjTLDTest=1; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; PHPSESSID=e7fe7d99d13b9dbed277c13cca2a3bbf; _csrf=c55c4b9ddc13f66f92bf0367432a77436a471c62d60b1014d5044b6fb8a4ffcfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q9FUq7ma7NSnoAaC1DqBhC5yPYw-a3RL%22%3B%7D; kt_aside_menu=350',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLf97SBBpyKdY8VKw2vDCgAAASc',
+    'REDIRECT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '64722',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLf97SBBpyKdY8VKw2vDCgAAASc',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622670829.4857299327850341796875,
+    'REQUEST_TIME' => 1622670829,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 16:54:56 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.181724106.1584074925; PHPSESSID=55946f5f84737f5b548ef9cf3cbc2dc1; _identity-backend=eef0a19a18cc99cfc96181088fa3cd15a19cc2d84817c6fe805c33e030c72866a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B6%2C%22%242y%2413%24oM1KR0CJvnEYgC7pU5BBjebMtNwZmZc.cAAk4G964TXbQYJWlUUNq%22%2C2592000%5D%22%3B%7D; _csrf=e4f8e3f035315df5dcc634f1e719fbaa1569cffbea9f2698ee12617e35982cc4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Hn3PLw67kxE-2sLISDn3sqShCGjVAjOd%22%3B%7D',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLf@L-@E@h-VfdfUFYFxtQAAAIQ',
+    'REDIRECT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '11740',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/96',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLf@L-@E@h-VfdfUFYFxtQAAAIQ',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622670895.9222719669342041015625,
+    'REQUEST_TIME' => 1622670895,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 17:06:18 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.181724106.1584074925; PHPSESSID=55946f5f84737f5b548ef9cf3cbc2dc1; _identity-backend=eef0a19a18cc99cfc96181088fa3cd15a19cc2d84817c6fe805c33e030c72866a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B6%2C%22%242y%2413%24oM1KR0CJvnEYgC7pU5BBjebMtNwZmZc.cAAk4G964TXbQYJWlUUNq%22%2C2592000%5D%22%3B%7D; _csrf=e4f8e3f035315df5dcc634f1e719fbaa1569cffbea9f2698ee12617e35982cc4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Hn3PLw67kxE-2sLISDn3sqShCGjVAjOd%22%3B%7D',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgA2W6Pf7lyShz1yygXgQAAAsc',
+    'REDIRECT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '17641',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgA2W6Pf7lyShz1yygXgQAAAsc',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622671577.9312899112701416015625,
+    'REQUEST_TIME' => 1622671577,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 18:11:10 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimiento/controllers/DefaultController.php on line 376. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimiento/controllers/DefaultController.php on line 376. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '144',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryMX61cNqep7sQJOnP',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=8a70f77034d78919257bab8d1a31b7cd',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/editar/51',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'id_archivo=',
+    'REDIRECT_QUERY_STRING' => 'id_archivo=',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/uloadrc/78',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimiento/default/uloadrc/78',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgQDb7Srvg0ylnchybJ9gAAAEk',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimiento/default/uloadrc/78',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '23691',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimiento/default/uloadrc/78?id_archivo=',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/uloadrc/78',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimiento/default/uloadrc/78',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgQDb7Srvg0ylnchybJ9gAAAEk',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622675470.032566070556640625,
+    'REQUEST_TIME' => 1622675470,
+    'argv' => [
+        'id_archivo=',
+    ],
+    'argc' => 1,
+]
+[02-Jun-2021 18:11:22 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimiento/controllers/DefaultController.php on line 376. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimiento/controllers/DefaultController.php on line 376. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '144',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryLHhryvNAjnlQuw5Z',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=8a70f77034d78919257bab8d1a31b7cd',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/editar/51',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'id_archivo=',
+    'REDIRECT_QUERY_STRING' => 'id_archivo=',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/uloadrc/79',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimiento/default/uloadrc/79',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgQGmBRXydrGEcyAoOgBwAAAOc',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimiento/default/uloadrc/79',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '23728',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimiento/default/uloadrc/79?id_archivo=',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/uloadrc/79',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimiento/default/uloadrc/79',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgQGmBRXydrGEcyAoOgBwAAAOc',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622675482.54979610443115234375,
+    'REQUEST_TIME' => 1622675482,
+    'argv' => [
+        'id_archivo=',
+    ],
+    'argc' => 1,
+]
+[02-Jun-2021 18:11:33 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimiento/controllers/DefaultController.php on line 303. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimiento/controllers/DefaultController.php on line 303. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '144',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary4pxW1PUZw0i20cAx',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=8a70f77034d78919257bab8d1a31b7cd',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/editar/51',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'id_archivo=',
+    'REDIRECT_QUERY_STRING' => 'id_archivo=',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/uload/51',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimiento/default/uload/51',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgQJC4GzH5cigb9tmWB7QAAALU',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimiento/default/uload/51',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '23754',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimiento/default/uload/51?id_archivo=',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/uload/51',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimiento/default/uload/51',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgQJC4GzH5cigb9tmWB7QAAALU',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622675493.2202880382537841796875,
+    'REQUEST_TIME' => 1622675493,
+    'argv' => [
+        'id_archivo=',
+    ],
+    'argc' => 1,
+]
+[02-Jun-2021 18:11:45 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimiento/controllers/DefaultController.php on line 303. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimiento/controllers/DefaultController.php on line 303. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '144',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary3mZdvy6K8d61LRB1',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=8a70f77034d78919257bab8d1a31b7cd',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/editar/51',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'id_archivo=',
+    'REDIRECT_QUERY_STRING' => 'id_archivo=',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/uload/51',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimiento/default/uload/51',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgQMWBRXydrGEcyAoOhGAAAAQs',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimiento/default/uload/51',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '23685',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimiento/default/uload/51?id_archivo=',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/uload/51',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimiento/default/uload/51',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgQMWBRXydrGEcyAoOhGAAAAQs',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622675505.7755210399627685546875,
+    'REQUEST_TIME' => 1622675505,
+    'argv' => [
+        'id_archivo=',
+    ],
+    'argc' => 1,
+]
+[02-Jun-2021 18:19:55 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 144. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 144. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '205239',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary2Pr3V2tZM8Pajjnp',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=8a70f77034d78919257bab8d1a31b7cd',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/editar/52',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/subir',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgSGe66X-jyK56AgEzQaAAAADM',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '46571',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/subir',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgSGe66X-jyK56AgEzQaAAAADM',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622675993.3199980258941650390625,
+    'REQUEST_TIME' => 1622675993,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 18:20:42 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 144. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 144. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '205239',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary3hh0v4vJLZFaQUTR',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=8a70f77034d78919257bab8d1a31b7cd',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimiento/default/editar/52',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/subir',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgSSO66X-jyK56AgEzTHgAAACo',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '46472',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/subir',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgSSO66X-jyK56AgEzTHgAAACo',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622676040.7888600826263427734375,
+    'REQUEST_TIME' => 1622676040,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 18:22:44 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1614797245710r0.6952414366723885; _gcl_au=1.1.942056143.1620157688; _fbp=fb.1.1620157687802.1145818426; _hjid=b151a11e-16eb-4fe9-a9c6-d420e83195bf; _ga=GA1.2.1572944890.1620157921; _identity-backend=2b78c69336ef3b9ebbf0c49310d7030b174c6d667eba935d3983c3f45857bb74a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B7%2C%22%242y%2413%24Z04x73O65NIKNxKUwgtipe220VZUg2tmuQ5yy%2FjDx%2FDVcXulfuTAm%22%2C2592000%5D%22%3B%7D; _csrf=26a4e823a6a27a0897b4e432c7e8b468151890136d0461571211fd04a82c1819a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cpgdjyhik4-vN2zI4mw0zUzcTwqgQm7q%22%3B%7D; PHPSESSID=8a70f77034d78919257bab8d1a31b7cd',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaremision',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgSwxCeFKA2kZL8aybH6AAAATc',
+    'REDIRECT_URL' => '/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '30893',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'SCRIPT_URL' => '/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgSwxCeFKA2kZL8aybH6AAAATc',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622676163.9462668895721435546875,
+    'REQUEST_TIME' => 1622676163,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 18:30:13 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.181724106.1584074925; PHPSESSID=55946f5f84737f5b548ef9cf3cbc2dc1; _identity-backend=eef0a19a18cc99cfc96181088fa3cd15a19cc2d84817c6fe805c33e030c72866a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B6%2C%22%242y%2413%24oM1KR0CJvnEYgC7pU5BBjebMtNwZmZc.cAAk4G964TXbQYJWlUUNq%22%2C2592000%5D%22%3B%7D; _csrf=e4f8e3f035315df5dcc634f1e719fbaa1569cffbea9f2698ee12617e35982cc4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Hn3PLw67kxE-2sLISDn3sqShCGjVAjOd%22%3B%7D',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgUhe66X-jyK56AgEzmFAAAADo',
+    'REDIRECT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '45526',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgUhe66X-jyK56AgEzmFAAAADo',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622676613.479238986968994140625,
+    'REQUEST_TIME' => 1622676613,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 18:40:21 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.181724106.1584074925; _identity-backend=eef0a19a18cc99cfc96181088fa3cd15a19cc2d84817c6fe805c33e030c72866a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B6%2C%22%242y%2413%24oM1KR0CJvnEYgC7pU5BBjebMtNwZmZc.cAAk4G964TXbQYJWlUUNq%22%2C2592000%5D%22%3B%7D; _csrf=e4f8e3f035315df5dcc634f1e719fbaa1569cffbea9f2698ee12617e35982cc4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Hn3PLw67kxE-2sLISDn3sqShCGjVAjOd%22%3B%7D; PHPSESSID=fec39cc38d4d08bac684698e9d90b4c5',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaremision',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgW5ZzOcVaHN4AImlruCwAAANM',
+    'REDIRECT_URL' => '/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '45532',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'SCRIPT_URL' => '/PegasoSistema/web/guiaremision/default/imprimir/52',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgW5ZzOcVaHN4AImlruCwAAANM',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622677221.7116239070892333984375,
+    'REQUEST_TIME' => 1622677221,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 18:43:45 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 144. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 144. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '138511',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryC2aVlVH9pER8SxWp',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.181724106.1584074925; _identity-backend=eef0a19a18cc99cfc96181088fa3cd15a19cc2d84817c6fe805c33e030c72866a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B6%2C%22%242y%2413%24oM1KR0CJvnEYgC7pU5BBjebMtNwZmZc.cAAk4G964TXbQYJWlUUNq%22%2C2592000%5D%22%3B%7D; _csrf=e4f8e3f035315df5dcc634f1e719fbaa1569cffbea9f2698ee12617e35982cc4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Hn3PLw67kxE-2sLISDn3sqShCGjVAjOd%22%3B%7D; PHPSESSID=fec39cc38d4d08bac684698e9d90b4c5',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/editar/97',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/subir',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgXr2oTx9a5UALMA5N3uQAAABg',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '47293',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/subir',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/subir',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgXr2oTx9a5UALMA5N3uQAAABg',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622677423.84496307373046875,
+    'REQUEST_TIME' => 1622677423,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 18:44:03 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/vendor/setasign/fpdf/fpdf.php on line 1008. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => '_ga=GA1.2.181724106.1584074925; _identity-backend=eef0a19a18cc99cfc96181088fa3cd15a19cc2d84817c6fe805c33e030c72866a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B6%2C%22%242y%2413%24oM1KR0CJvnEYgC7pU5BBjebMtNwZmZc.cAAk4G964TXbQYJWlUUNq%22%2C2592000%5D%22%3B%7D; _csrf=e4f8e3f035315df5dcc634f1e719fbaa1569cffbea9f2698ee12617e35982cc4a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Hn3PLw67kxE-2sLISDn3sqShCGjVAjOd%22%3B%7D; PHPSESSID=fec39cc38d4d08bac684698e9d90b4c5',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => '',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLgXwmoTx9a5UALMA5N5XQAAABM',
+    'REDIRECT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'REMOTE_ADDR' => '190.236.75.169',
+    'REMOTE_PORT' => '47338',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SCRIPT_URL' => '/PegasoSistema/web/guiaventas/default/imprimir/97',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLgXwmoTx9a5UALMA5N5XQAAABM',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622677443.039578914642333984375,
+    'REQUEST_TIME' => 1622677443,
+    'argv' => [],
+    'argc' => 0,
+]
+[02-Jun-2021 22:47:38 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 225. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 225. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '144',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary38Pz1SqZfU8A05qB',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; _csrf=e4d728567b95f9a02197858d4820045278d81a18d885ea0a112ee0e62a05c776a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayDXvAkZbcG9DncEbW5F-NHnMFdIWn8w%22%3B%7D; kt_aside_menu=407; PHPSESSID=943e1310e737677c264d5057022a0f59',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/editar/97',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'id_archivo=205',
+    'REDIRECT_QUERY_STRING' => 'id_archivo=205',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLhQ2kqi8dlDFK0rMZ3a3QAAALE',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '61981',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimientoventa/default/uload/97?id_archivo=205',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLhQ2kqi8dlDFK0rMZ3a3QAAALE',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622692058.8621280193328857421875,
+    'REQUEST_TIME' => 1622692058,
+    'argv' => [
+        'id_archivo=205',
+    ],
+    'argc' => 1,
+]
+[02-Jun-2021 22:47:56 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 225. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 225. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '144',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryPmgZiTaCkiHouc5r',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; _csrf=e4d728567b95f9a02197858d4820045278d81a18d885ea0a112ee0e62a05c776a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayDXvAkZbcG9DncEbW5F-NHnMFdIWn8w%22%3B%7D; kt_aside_menu=407; PHPSESSID=943e1310e737677c264d5057022a0f59',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/editar/97',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'id_archivo=205',
+    'REDIRECT_QUERY_STRING' => 'id_archivo=205',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLhQ7D@pEgPpGiHUwGostQAAAF0',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '63307',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimientoventa/default/uload/97?id_archivo=205',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLhQ7D@pEgPpGiHUwGostQAAAF0',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622692076.4648799896240234375,
+    'REQUEST_TIME' => 1622692076,
+    'argv' => [
+        'id_archivo=205',
+    ],
+    'argc' => 1,
+]
+[02-Jun-2021 22:50:25 America/Lima] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 225. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home2/ginoharold/public_html/PegasoSistema/modules/seguimientoventa/controllers/DefaultController.php on line 225. in /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php:373
+Stack trace:
+#0 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/web/Response.php(346): yii\web\Response->sendHeaders()
+#1 /home2/ginoharold/public_html/PegasoSistema/vendor/yiisoft/yii2/base/Application.php(398): yii\web\Response->send()
+#2 /home2/ginoharold/public_html/PegasoSistema/web/index.php(12): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTENT_LENGTH' => '144',
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryo5g447ZBGsAnDMpN',
+    'CONTEXT_DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home2/ginoharold/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.9,en;q=0.8',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'optimizelyEndUserId=oeu1615488506619r0.6180357631458979; _gcl_au=1.1.1082990761.1615488903; _ga=GA1.2.1150216033.1615488903; _fbp=fb.1.1615488902982.1213403049; _hjid=3a061f14-1957-4e64-a7a2-328589eab735; _gid=GA1.2.2049638641.1622606718; _identity-backend=5d7c3dfccc9d6a1ed0026b7df4a20907e5ede6a6028a605ecc77d708fd71a847a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A74%3A%22%5B5%2C%22%242y%2413%240nBf0NBacO5CpGxEx3V20.xykr6nexfiiMRg7QruP1mOPgiNkD2V.%22%2C2592000%5D%22%3B%7D; _uetsid=738499a0c35711eba8948ddb329a850a; _uetvid=7384b660c35711eb96c87d76fceee083; _csrf=e4d728567b95f9a02197858d4820045278d81a18d885ea0a112ee0e62a05c776a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ayDXvAkZbcG9DncEbW5F-NHnMFdIWn8w%22%3B%7D; kt_aside_menu=407; PHPSESSID=943e1310e737677c264d5057022a0f59',
+    'HTTP_HOST' => 'pegasoserviceexpress.com',
+    'HTTP_ORIGIN' => 'http://pegasoserviceexpress.com',
+    'HTTP_REFERER' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/editar/97',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'PHP_INI_SCAN_DIR' => '/opt/cpanel/ea-php73/root/etc:/opt/cpanel/ea-php73/root/etc/php.d:.',
+    'QUERY_STRING' => 'id_archivo=205',
+    'REDIRECT_QUERY_STRING' => 'id_archivo=205',
+    'REDIRECT_SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REDIRECT_SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'YLhRgJL-mDwnexOwbXxrOgAAAOs',
+    'REDIRECT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'REMOTE_ADDR' => '190.239.32.249',
+    'REMOTE_PORT' => '59441',
+    'REQUEST_METHOD' => 'POST',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/PegasoSistema/web/seguimientoventa/default/uload/97?id_archivo=205',
+    'SCRIPT_FILENAME' => '/home2/ginoharold/public_html/PegasoSistema/web/index.php',
+    'SCRIPT_NAME' => '/PegasoSistema/web/index.php',
+    'SCRIPT_URI' => 'http://pegasoserviceexpress.com/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'SCRIPT_URL' => '/PegasoSistema/web/seguimientoventa/default/uload/97',
+    'SERVER_ADDR' => '108.167.180.87',
+    'SERVER_ADMIN' => 'webmaster@pegasoserviceexpress.com',
+    'SERVER_NAME' => 'pegasoserviceexpress.com',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'UNIQUE_ID' => 'YLhRgJL-mDwnexOwbXxrOgAAAOs',
+    'PHP_SELF' => '/PegasoSistema/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1622692224.957418918609619140625,
+    'REQUEST_TIME' => 1622692224,
+    'argv' => [
+        'id_archivo=205',
+    ],
+    'argc' => 1,
+]
